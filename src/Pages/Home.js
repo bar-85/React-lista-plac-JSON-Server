@@ -13,11 +13,10 @@ const Home = () => {
 
 	useEffect(() => {
 		loadUsers()
-	}, [])
+	}, [users])
 
 	function Delete(id) {
-		axios.delete(`http://localhost:3001/users/${id}`)
-		window.location.reload(false);
+		axios.delete(`http://localhost:3001/users/${id}`).then(loadUsers());
 	}
 
 	return (
@@ -43,7 +42,7 @@ const Home = () => {
 								Wypłata(zł)
 							</th>
 							<th scope='col' className='text-sm font-medium text-white px-6 py-4'>
-								Edytuj/Usuń
+								Edytuj / Usuń
 							</th>
 						</tr>
 					</thead>
@@ -56,7 +55,7 @@ const Home = () => {
 								<td className='text-lg text-gray-900 font-light px-6 py-4 whitespace-nowrap'>{data.phone}</td>
 								<td className='text-lg text-gray-900 font-light px-6 py-4 whitespace-nowrap'>{data.paycheck}</td>
 								<td className='flex justify-center items-center space-x-4 mt-2 px-3'>
-									<Link className='px-6 py-2 text-white bg-green-600 rounded-lg'>Edytuj</Link>
+									<Link to={`/edit/${data.id}`} className='px-6 py-2 text-white bg-green-600 rounded-lg'>Edytuj</Link>
 									<Link onClick={() => Delete(data.id)} className='px-6 py-2 text-white bg-red-600 rounded-lg'>
 										Usuń
 									</Link>
