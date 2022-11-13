@@ -2,6 +2,8 @@ import './App.css'
 import Navbar from './Pages/Navbar'
 import Home from './Pages/Home'
 import { Route, Routes } from 'react-router-dom'
+import AddUser from './Pages/AddUser'
+
 
 function App() {
 	return (
@@ -10,6 +12,8 @@ function App() {
 
 			<Routes>
 				<Route path='/' element={<Home />} />
+				<Route path='/add-user' element={<AddUser />} />
+				 
 			</Routes>
 		</div>
 	)
