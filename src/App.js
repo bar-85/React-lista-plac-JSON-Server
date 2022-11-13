@@ -3,6 +3,8 @@ import Navbar from './Pages/Navbar'
 import Home from './Pages/Home'
 import { Route, Routes } from 'react-router-dom'
 import AddUser from './Pages/AddUser'
+import Edit from './Pages/Edit'
+
 
 
 function App() {
@@ -12,8 +14,8 @@ function App() {
 
 			<Routes>
 				<Route path='/' element={<Home />} />
-				<Route path='/add-user' element={<AddUser />} />
-				 
+				<Route path='/add' element={<AddUser />} />
+				<Route path='/edit' element={<Edit />} />
 			</Routes>
 		</div>
 	)
