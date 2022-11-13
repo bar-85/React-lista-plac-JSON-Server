@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const AddUser = () => {
 	const [name, setName] = useState('')
@@ -57,9 +58,10 @@ const AddUser = () => {
 				/>
 				<button
 					onClick={Submit}
-					className='px-3 py-1.5 text-base font-normal mt-4 text-white bg-purple-600 bg-clip-padding rounded transition ease-in-out hover:bg-purple-500 border border-purple-550'>
+					className='px-3 py-1.5 text-base font-normal mt-4 text-white bg-violet-900 bg-clip-padding rounded transition ease-in-out hover:bg-violet-800 border border-purple-550'>
 					Dodaj
 				</button>
+				<Link to='/' className='px-3 py-1.5 text-base font-normal mt-4 text-white bg-purple-600 bg-clip-padding rounded transition ease-in-out hover:bg-purple-500 border border-purple-550'>Strona główna</Link>
 			</form>
 		</div>
 	)
