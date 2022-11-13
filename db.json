@@ -1,53 +1,53 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "name": "Marek Kowalski",
-        "email": "mkowalski@gmail.com",
-        "phone": "+48 721-532-146",
-        "paycheck": "2500"
-      },
-      {
-        "id": 2,
-        "name": "Jolanta Siwa",
-        "email": "jsiwa@gmail.com",
-        "phone": "+48 573-753-368",
-        "paycheck": "5000"
-      },
-      {
-        "id": 3,
-        "name": "Patrycja Lato",
-        "email": "plato@gmail.com",
-        "phone": "+48 964-457-346",
-        "paycheck": "7500"
-      },
-      {
-        "id": 4,
-        "name": "Karol Wielki",
-        "email": "kwielki@gmail.com",
-        "phone": "+48 840-543-456",
-        "paycheck": "3500"
-      },
-      {
-        "id": 5,
-        "name": "Daniel Winny",
-        "email": "dwinny@gmail.com",
-        "phone": "+48 754-785-678",
-        "paycheck": "4500"
-      },
-      {
-        "id": 6,
-        "name": "Kuba Sobota",
-        "email": "ksobota@gmail.com",
-        "phone": "+48 794-962-250",
-        "paycheck": "5500"
-      },
-      {
-        "id": 7,
-        "name": "Weronika Sowa",
-        "email": "wsowa@gmail.com",
-        "phone": "+48 864-664-355",
-        "paycheck": "3500"
-      }
-    ]
-  }
+  "users": [
+    {
+      "id": 1,
+      "name": "Marek Kowalski",
+      "email": "mkowalski@gmail.com",
+      "phone": "+48 721-532-146",
+      "paycheck": "2500"
+    },
+    {
+      "id": 2,
+      "name": "Jolanta Siwa",
+      "email": "jsiwa@gmail.com",
+      "phone": "+48 573-753-368",
+      "paycheck": "5000"
+    },
+    {
+      "id": 3,
+      "name": "Patrycja Lato",
+      "email": "plato@gmail.com",
+      "phone": "+48 964-457-346",
+      "paycheck": "7500"
+    },
+    {
+      "id": 4,
+      "name": "Karol Wielki",
+      "email": "kwielki@gmail.com",
+      "phone": "+48 840-543-456",
+      "paycheck": "3500"
+    },
+    {
+      "id": 5,
+      "name": "Daniel Winny",
+      "email": "dwinny@gmail.com",
+      "phone": "+48 754-785-678",
+      "paycheck": "4500"
+    },
+    {
+      "id": 6,
+      "name": "Kuba Sobota",
+      "email": "ksobota@gmail.com",
+      "phone": "+48 794-962-250",
+      "paycheck": "5500"
+    },
+    {
+      "id": 7,
+      "name": "Weronika Sowa",
+      "email": "wsowa@gmail.com",
+      "phone": "+48 864-664-355",
+      "paycheck": "3500"
+    }
+  ]
+}
