@@ -22,11 +22,11 @@
       "paycheck": "7500"
     },
     {
-      "id": 4,
       "name": "Karol Wielki",
       "email": "kwielki@gmail.com",
       "phone": "+48 840-543-456",
-      "paycheck": "3500"
+      "paycheck": "3500",
+      "id": 4
     },
     {
       "id": 5,

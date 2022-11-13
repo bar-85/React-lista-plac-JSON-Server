@@ -13,7 +13,7 @@ const Home = () => {
 
 	useEffect(() => {
 		loadUsers()
-	}, [users])
+	}, [])
 
 	function Delete(id) {
 		axios.delete(`http://localhost:3001/users/${id}`).then(loadUsers());
